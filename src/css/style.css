@@ -1,0 +1,90 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.menu {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.menu li {
+  background-color: #fff;
+  padding: 10px 20px;
+  flex-basis: 100px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.menu li a {
+  color: black;
+  font-weight: bold;
+}
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 60px;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+.introducao {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  padding: 0 25px;
+
+}
+.introducao button {
+  align-self: flex-end;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: tomato;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+.introducao button a {
+  color: #fff;
+}
+.infoBike {
+  background-color: #fff;
+}
+.imgBike {
+  max-width: 100%;
+  height: 100%;
+}
+.vantagem {
+  font-size: 64px;
+  background-color: #ececec;
+  color: #c6c6c6;
+  padding: 10px 50px;
+  display: flex;
+  align-items: center;
+  text-align: end;
+}
+.funcionalidades {
+  background-color: #fff;
+  padding: 30px;
+  display: flex;
+  gap: 10px 20px;
+  flex-direction: column;
+  justify-content: center;
+}
+.funcionalidades ul li {
+  display: flex;
+  gap: 20px;
+}
+.funcionalidades p {
+  margin-bottom: 40px;
+  text-align: center;
+  flex-wrap: wrap;
+}
